@@ -7,9 +7,9 @@ class TSCTMR:
            cx, cy is the coordinates of image center in pixel coordinate system.
            f is the focal length of the camera, measured in pixels.
         """
-        self.cx = 960
-        self.cy = 540
-        self.f = 960
+        self.cx = 965
+        self.cy = 545
+        self.f = 965
 
     def associate(self, uav1_pose, uav2_pose, uav1_objects, uav2_objects):
         """
